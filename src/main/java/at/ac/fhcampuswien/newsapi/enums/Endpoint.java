@@ -1,7 +1,7 @@
 package at.ac.fhcampuswien.newsapi.enums;
 
 public enum Endpoint {
-    TOP_HEADLINES("top-headlines"),
+    TOPHEADLINES("top-headlines"),
 
     EVERYTHING("everything");
 

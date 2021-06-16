@@ -10,14 +10,14 @@ import java.util.List;
 
 public class NewsAPIExample {
 
-    public static final String APIKEY = "myKey";    //TODO add your api key
+    public static final String APIKEY = "6ac54e82b3a84ec8a8bb1657b7d14bb4";    //TODO add your api key
 
     public static void main(String[] args){
 
         NewsApi newsApi = new NewsApiBuilder()
                 .setApiKey(APIKEY)
                 .setQ("corona")
-                .setEndPoint(Endpoint.TOP_HEADLINES)// example of how to use enums
+                .setEndPoint(Endpoint.TOPHEADLINES)// example of how to use enums
                 .setSourceCountry(Country.at)       // example of how to use enums
                 .setSourceCategory(Category.health) // example of how to use enums
                 .createNewsApi();
