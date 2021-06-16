@@ -144,7 +144,6 @@ public class NewsApi {
 
     protected String buildURL() {
         // TODO ErrorHandling
-        // da kann kein fehler kommen hä
         String urlbase = String.format(NEWS_API_URL,getEndpoint().getValue(),getQ(),getApiKey());
         StringBuilder sb = new StringBuilder(urlbase);
 
