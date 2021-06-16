@@ -1,3 +1,3 @@
 # NewsreaderStarterExercise3
 
-git@github.com:BozanaMa/NewsreaderStarterExercise3.git
+https://github.com/BozanaMa/NewsreaderStarterExercise3.git
